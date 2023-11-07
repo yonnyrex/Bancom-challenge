@@ -14,6 +14,7 @@
 		EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */; };
 		EABC75612AFA98E500F95ED8 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75602AFA98E500F95ED8 /* CheckBox.swift */; };
 		EABC75672AFABF8400F95ED8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75662AFABF8400F95ED8 /* User.swift */; };
+		EABC756B2AFAC4E900F95ED8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC756A2AFAC4E900F95ED8 /* NetworkManager.swift */; };
 		EABC756F2AFAD53100F95ED8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC756E2AFAD53100F95ED8 /* Post.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
 		EABC75602AFA98E500F95ED8 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		EABC75662AFABF8400F95ED8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EABC756A2AFAC4E900F95ED8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EABC756E2AFAD53100F95ED8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				EABC753F2AFA897A00F95ED8 /* BancomApp.swift */,
+				EABC75682AFAC49F00F95ED8 /* API */,
 				EABC75582AFA8FA500F95ED8 /* Resources */,
 				EABC754E2AFA8A5200F95ED8 /* Modules */,
 				EABC754D2AFA8A4400F95ED8 /* Utilities */,
@@ -191,6 +194,22 @@
 			path = CheckBox;
 			sourceTree = "<group>";
 		};
+		EABC75682AFAC49F00F95ED8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EABC75692AFAC4CC00F95ED8 /* Networking */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EABC75692AFAC4CC00F95ED8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EABC756A2AFAC4E900F95ED8 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +283,7 @@
 				EABC75612AFA98E500F95ED8 /* CheckBox.swift in Sources */,
 				EABC755A2AFA907000F95ED8 /* LoginView.swift in Sources */,
 				EABC75402AFA897A00F95ED8 /* BancomApp.swift in Sources */,
+				EABC756B2AFAC4E900F95ED8 /* NetworkManager.swift in Sources */,
 				EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */,
 				EABC75672AFABF8400F95ED8 /* User.swift in Sources */,
 				EABC756F2AFAD53100F95ED8 /* Post.swift in Sources */,
