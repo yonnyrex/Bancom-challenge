@@ -51,11 +51,11 @@
 		EABC753E2AFA897A00F95ED8 /* Bancom */ = {
 			isa = PBXGroup;
 			children = (
+				EABC753F2AFA897A00F95ED8 /* BancomApp.swift */,
+				EABC75582AFA8FA500F95ED8 /* Resources */,
 				EABC754E2AFA8A5200F95ED8 /* Modules */,
 				EABC754D2AFA8A4400F95ED8 /* Utilities */,
-				EABC753F2AFA897A00F95ED8 /* BancomApp.swift */,
 				EABC75412AFA897A00F95ED8 /* ContentView.swift */,
-				EABC75432AFA897C00F95ED8 /* Assets.xcassets */,
 				EABC75452AFA897C00F95ED8 /* Preview Content */,
 			);
 			path = Bancom;
@@ -153,6 +153,14 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EABC75582AFA8FA500F95ED8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EABC75432AFA897C00F95ED8 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
