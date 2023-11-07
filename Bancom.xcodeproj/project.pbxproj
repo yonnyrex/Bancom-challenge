@@ -13,6 +13,8 @@
 		EABC755A2AFA907000F95ED8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75592AFA907000F95ED8 /* LoginView.swift */; };
 		EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */; };
 		EABC75612AFA98E500F95ED8 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75602AFA98E500F95ED8 /* CheckBox.swift */; };
+		EABC75672AFABF8400F95ED8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75662AFABF8400F95ED8 /* User.swift */; };
+		EABC756F2AFAD53100F95ED8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC756E2AFAD53100F95ED8 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		EABC75592AFA907000F95ED8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
 		EABC75602AFA98E500F95ED8 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		EABC75662AFABF8400F95ED8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EABC756E2AFAD53100F95ED8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 		EABC75562AFA8AAD00F95ED8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EABC75662AFABF8400F95ED8 /* User.swift */,
+				EABC756E2AFAD53100F95ED8 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 				EABC755A2AFA907000F95ED8 /* LoginView.swift in Sources */,
 				EABC75402AFA897A00F95ED8 /* BancomApp.swift in Sources */,
 				EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */,
+				EABC75672AFABF8400F95ED8 /* User.swift in Sources */,
+				EABC756F2AFAD53100F95ED8 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
