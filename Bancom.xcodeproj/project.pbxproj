@@ -11,6 +11,8 @@
 		EABC75422AFA897A00F95ED8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75412AFA897A00F95ED8 /* ContentView.swift */; };
 		EABC75442AFA897C00F95ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABC75432AFA897C00F95ED8 /* Assets.xcassets */; };
 		EABC75472AFA897C00F95ED8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABC75462AFA897C00F95ED8 /* Preview Assets.xcassets */; };
+		EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */; };
+		EABC75612AFA98E500F95ED8 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75602AFA98E500F95ED8 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EABC75412AFA897A00F95ED8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EABC75432AFA897C00F95ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EABC75462AFA897C00F95ED8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
+		EABC75602AFA98E500F95ED8 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		EABC754F2AFA8A6100F95ED8 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				EABC755E2AFA98B000F95ED8 /* CheckBox */,
+				EABC755B2AFA911500F95ED8 /* TextFields */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -163,6 +169,22 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		EABC755B2AFA911500F95ED8 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		EABC755E2AFA98B000F95ED8 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				EABC75602AFA98E500F95ED8 /* CheckBox.swift */,
+			);
+			path = CheckBox;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,7 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EABC75422AFA897A00F95ED8 /* ContentView.swift in Sources */,
+				EABC75612AFA98E500F95ED8 /* CheckBox.swift in Sources */,
 				EABC75402AFA897A00F95ED8 /* BancomApp.swift in Sources */,
+				EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
