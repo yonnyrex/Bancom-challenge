@@ -13,11 +13,13 @@
 		EABC755A2AFA907000F95ED8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75592AFA907000F95ED8 /* LoginView.swift */; };
 		EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */; };
 		EABC75612AFA98E500F95ED8 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75602AFA98E500F95ED8 /* CheckBox.swift */; };
+		EABC75632AFA9FCE00F95ED8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75622AFA9FCE00F95ED8 /* MainView.swift */; };
 		EABC75672AFABF8400F95ED8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75662AFABF8400F95ED8 /* User.swift */; };
 		EABC756B2AFAC4E900F95ED8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC756A2AFAC4E900F95ED8 /* NetworkManager.swift */; };
 		EABC756D2AFACB5500F95ED8 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC756C2AFACB5500F95ED8 /* MainViewModel.swift */; };
 		EABC756F2AFAD53100F95ED8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC756E2AFAD53100F95ED8 /* Post.swift */; };
 		EABC75722AFAE5B000F95ED8 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75712AFAE5B000F95ED8 /* UIViewController+Extensions.swift */; };
+		EABC75742AFAE62F00F95ED8 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75732AFAE62F00F95ED8 /* CreatePostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +30,13 @@
 		EABC75592AFA907000F95ED8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
 		EABC75602AFA98E500F95ED8 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		EABC75622AFA9FCE00F95ED8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EABC75662AFABF8400F95ED8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EABC756A2AFAC4E900F95ED8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EABC756C2AFACB5500F95ED8 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		EABC756E2AFAD53100F95ED8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		EABC75712AFAE5B000F95ED8 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		EABC75732AFAE62F00F95ED8 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 		EABC75552AFA8AA700F95ED8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EABC75622AFA9FCE00F95ED8 /* MainView.swift */,
+				EABC75732AFAE62F00F95ED8 /* CreatePostView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,8 +304,10 @@
 				EABC755A2AFA907000F95ED8 /* LoginView.swift in Sources */,
 				EABC75402AFA897A00F95ED8 /* BancomApp.swift in Sources */,
 				EABC756B2AFAC4E900F95ED8 /* NetworkManager.swift in Sources */,
+				EABC75632AFA9FCE00F95ED8 /* MainView.swift in Sources */,
 				EABC75722AFAE5B000F95ED8 /* UIViewController+Extensions.swift in Sources */,
 				EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */,
+				EABC75742AFAE62F00F95ED8 /* CreatePostView.swift in Sources */,
 				EABC75672AFABF8400F95ED8 /* User.swift in Sources */,
 				EABC756D2AFACB5500F95ED8 /* MainViewModel.swift in Sources */,
 				EABC756F2AFAD53100F95ED8 /* Post.swift in Sources */,
