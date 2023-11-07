@@ -15,17 +15,19 @@ struct LoginView: View {
 
     // MARK: - Body
     var body: some View {
-        VStack(alignment: .leading) {
-            welcomeTitle
-            form
-            forgetPassword
-            rememberEmail
-            Spacer()
-            loginButton
-            loginGoogleButton
-        }
-        .padding(.horizontal, 20)
+        NavigationView {
+            VStack(alignment: .leading) {
+                welcomeTitle
+                form
+                forgetPassword
+                rememberEmail
+                Spacer()
+                loginButton
+                loginGoogleButton
+            }
+            .padding(.horizontal, 20)
 
+        }
     }
     
     // MARK: - WelcomeTitle
@@ -81,23 +83,21 @@ struct LoginView: View {
     
     // MARK: - LoginButton
     var loginButton: some View {
-        Button(
-            action: {
-                
-            }, label: {
-                Text("Ingresar")
-                    .font(.system(size: 16, weight: .bold))
-                    .frame(maxWidth: .greatestFiniteMagnitude, alignment: .center)
-                    .foregroundColor(Color("White"))
-                    .padding(15)
-            }
-        )
-        .frame(maxWidth: .greatestFiniteMagnitude)
-        .background {
-            RoundedRectangle(cornerRadius: 5)
-                .foregroundColor(Color("Primary"))
+        NavigationLink {
+            MainView()
+        } label: {
+            Text("Ingresar")
+                .font(.system(size: 16, weight: .bold))
+                .frame(maxWidth: .greatestFiniteMagnitude, alignment: .center)
+                .foregroundColor(Color("White"))
+                .padding(15)
+                .frame(maxWidth: .greatestFiniteMagnitude)
+                .background {
+                    RoundedRectangle(cornerRadius: 5)
+                        .foregroundColor(Color("Primary"))
+                }
+                .padding(.bottom, 18)
         }
-        .padding(.bottom, 18)
     }
     
     // MARK: - LoginGoogleButton
