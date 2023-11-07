@@ -51,6 +51,8 @@
 		EABC753E2AFA897A00F95ED8 /* Bancom */ = {
 			isa = PBXGroup;
 			children = (
+				EABC754E2AFA8A5200F95ED8 /* Modules */,
+				EABC754D2AFA8A4400F95ED8 /* Utilities */,
 				EABC753F2AFA897A00F95ED8 /* BancomApp.swift */,
 				EABC75412AFA897A00F95ED8 /* ContentView.swift */,
 				EABC75432AFA897C00F95ED8 /* Assets.xcassets */,
@@ -65,6 +67,92 @@
 				EABC75462AFA897C00F95ED8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EABC754D2AFA8A4400F95ED8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EABC754F2AFA8A6100F95ED8 /* Components */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EABC754E2AFA8A5200F95ED8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EABC75522AFA8A8D00F95ED8 /* Main */,
+				EABC75502AFA8A6D00F95ED8 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EABC754F2AFA8A6100F95ED8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EABC75502AFA8A6D00F95ED8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EABC75542AFA8A9E00F95ED8 /* ViewModels */,
+				EABC75532AFA8A9400F95ED8 /* Models */,
+				EABC75512AFA8A7400F95ED8 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EABC75512AFA8A7400F95ED8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EABC75522AFA8A8D00F95ED8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EABC75572AFA8AB400F95ED8 /* ViewModels */,
+				EABC75562AFA8AAD00F95ED8 /* Models */,
+				EABC75552AFA8AA700F95ED8 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EABC75532AFA8A9400F95ED8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EABC75542AFA8A9E00F95ED8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EABC75552AFA8AA700F95ED8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EABC75562AFA8AAD00F95ED8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EABC75572AFA8AB400F95ED8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
