@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EABC75402AFA897A00F95ED8 /* BancomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC753F2AFA897A00F95ED8 /* BancomApp.swift */; };
-		EABC75422AFA897A00F95ED8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75412AFA897A00F95ED8 /* ContentView.swift */; };
 		EABC75442AFA897C00F95ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABC75432AFA897C00F95ED8 /* Assets.xcassets */; };
 		EABC75472AFA897C00F95ED8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABC75462AFA897C00F95ED8 /* Preview Assets.xcassets */; };
 		EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		EABC753C2AFA897A00F95ED8 /* Bancom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bancom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABC753F2AFA897A00F95ED8 /* BancomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancomApp.swift; sourceTree = "<group>"; };
-		EABC75412AFA897A00F95ED8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EABC75432AFA897C00F95ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EABC75462AFA897C00F95ED8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EABC755C2AFA912600F95ED8 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				EABC75582AFA8FA500F95ED8 /* Resources */,
 				EABC754E2AFA8A5200F95ED8 /* Modules */,
 				EABC754D2AFA8A4400F95ED8 /* Utilities */,
-				EABC75412AFA897A00F95ED8 /* ContentView.swift */,
 				EABC75452AFA897C00F95ED8 /* Preview Content */,
 			);
 			path = Bancom;
@@ -255,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EABC75422AFA897A00F95ED8 /* ContentView.swift in Sources */,
 				EABC75612AFA98E500F95ED8 /* CheckBox.swift in Sources */,
 				EABC75402AFA897A00F95ED8 /* BancomApp.swift in Sources */,
 				EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */,
