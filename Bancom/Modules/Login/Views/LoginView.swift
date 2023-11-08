@@ -12,7 +12,8 @@ struct LoginView: View {
     @State var email: String = ""
     @State var password: String = ""
     @State private var isOn = false
-
+    @ObservedObject var viewModel = MainViewModel()
+    
     // MARK: - Body
     var body: some View {
         NavigationView {
@@ -26,7 +27,7 @@ struct LoginView: View {
                 loginGoogleButton
             }
             .padding(.horizontal, 20)
-
+            
         }
     }
     
@@ -50,7 +51,7 @@ struct LoginView: View {
         VStack(spacing: 40) {
             FloatingTextField(placeholder: "Correo electrónico", text: $email)
             FloatingTextField(placeholder: "Contraseña", isPassword: true, text: $password)
-
+            
         }.padding(.top, 31)
     }
     

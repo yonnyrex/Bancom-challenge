@@ -20,6 +20,8 @@
 		EABC756F2AFAD53100F95ED8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC756E2AFAD53100F95ED8 /* Post.swift */; };
 		EABC75722AFAE5B000F95ED8 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75712AFAE5B000F95ED8 /* UIViewController+Extensions.swift */; };
 		EABC75742AFAE62F00F95ED8 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75732AFAE62F00F95ED8 /* CreatePostView.swift */; };
+		EABC75762AFB3D1F00F95ED8 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75752AFB3D1F00F95ED8 /* LoginViewModel.swift */; };
+		EABC75782AFB457400F95ED8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC75772AFB457400F95ED8 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		EABC756E2AFAD53100F95ED8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		EABC75712AFAE5B000F95ED8 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		EABC75732AFAE62F00F95ED8 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		EABC75752AFB3D1F00F95ED8 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EABC75772AFB457400F95ED8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 		EABC75532AFA8A9400F95ED8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EABC75772AFB457400F95ED8 /* Login.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 		EABC75542AFA8A9E00F95ED8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				EABC75752AFB3D1F00F95ED8 /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -302,12 +308,14 @@
 			files = (
 				EABC75612AFA98E500F95ED8 /* CheckBox.swift in Sources */,
 				EABC755A2AFA907000F95ED8 /* LoginView.swift in Sources */,
+				EABC75782AFB457400F95ED8 /* Login.swift in Sources */,
 				EABC75402AFA897A00F95ED8 /* BancomApp.swift in Sources */,
 				EABC756B2AFAC4E900F95ED8 /* NetworkManager.swift in Sources */,
 				EABC75632AFA9FCE00F95ED8 /* MainView.swift in Sources */,
 				EABC75722AFAE5B000F95ED8 /* UIViewController+Extensions.swift in Sources */,
 				EABC755D2AFA912600F95ED8 /* FloatingTextField.swift in Sources */,
 				EABC75742AFAE62F00F95ED8 /* CreatePostView.swift in Sources */,
+				EABC75762AFB3D1F00F95ED8 /* LoginViewModel.swift in Sources */,
 				EABC75672AFABF8400F95ED8 /* User.swift in Sources */,
 				EABC756D2AFACB5500F95ED8 /* MainViewModel.swift in Sources */,
 				EABC756F2AFAD53100F95ED8 /* Post.swift in Sources */,

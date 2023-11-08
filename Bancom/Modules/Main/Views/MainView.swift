@@ -26,7 +26,6 @@ struct MainView: View {
                 viewModel.setUpViewModel()
             }
         }.navigationBarBackButtonHidden(true)
-
     }
 
     // MARK: - Header
@@ -69,6 +68,7 @@ struct MainView: View {
                             textCell(text: user.phone, textColor: Color("Black"))
                             Image(systemName: isCollapsed.0 && isCollapsed.1 == user.id ? "chevron.up" : "chevron.down")
                                 .frame(maxWidth: .infinity)
+                                .tint(Color("DarkGray"))
                         }
                         .padding(.vertical, 20)
                         .frame(maxWidth: .greatestFiniteMagnitude)
